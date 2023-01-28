@@ -12,3 +12,6 @@ hammenu.addEventListener('click', () => {
          menuOpen = false; 
        }
 }); 
+ul.addEventListener('click', () => {
+    ul.style.left = '-100%'; 
+    hammenu.classList.remove('open'); 
